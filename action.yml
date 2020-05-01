@@ -1,0 +1,9 @@
+name: 'Changes Log'
+description: 'Checks that a pull request branch updates the Changes file'
+author: 'David Allsopp'
+branding:
+  icon: 'file-text'
+  color: 'orange'
+runs:
+  using: 'node12'
+  main: 'index.js'

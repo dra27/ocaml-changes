@@ -1,0 +1,26 @@
+{
+  "name": "ocaml-changes",
+  "version": "1.0.0",
+  "description": "OCaml Changes File Action",
+  "author": "David Allsopp",
+  "license": "LPGL-2.1-only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests available\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "ocaml"
+  ],
+  "bugs": {
+    "url": "https://github.com/ocaml/ocaml/issues"
+  },
+  "homepage": "https://www.ocaml.org",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/exec": "^1.0.4",
+    "@actions/github": "^2.1.1",
+    "path": "^0.12.7"
+  }
+}

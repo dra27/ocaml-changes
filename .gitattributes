@@ -1,2 +1,5 @@
 # Default behaviour, for if core.autocrlf isn't set
 * text=auto
+
+# Line-ending specifications, for Windows interoperability
+*.sh text eol=lf
