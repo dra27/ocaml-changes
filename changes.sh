@@ -39,7 +39,7 @@ DEEPEN=50
 while ! git merge-base "$CUR_HEAD" "$PR_HEAD" >& /dev/null
 do
   echo "Deepening $BRANCH by $DEEPEN commits"
-  git fetch origin --deepen=$DEEPEN "$BRANCH"
+  git fetch origin --deepen=$DEEPEN HEAD
   ((DEEPEN*=2))
 done
 MERGE_BASE=$(git merge-base "$CUR_HEAD" "$PR_HEAD")
